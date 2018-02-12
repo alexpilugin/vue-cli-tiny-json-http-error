@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import axios from 'tiny-json-http';
+import tiny from 'tiny-json-http';
 
 export default {
   name: 'LoaderTiny',

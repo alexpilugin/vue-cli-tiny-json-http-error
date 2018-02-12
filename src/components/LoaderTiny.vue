@@ -4,7 +4,7 @@
     <hr />
     <button v-on:click="getData">Get Data</button>
 
-  <ul v-if="post && posts.length">
+  <ul v-if="posts && posts.length">
     <li v-for="(post, index) in posts" :key="`prj-${index}`">
       <p><strong>{{post.title}}</strong></p>
       <p>{{post.body}}</p>

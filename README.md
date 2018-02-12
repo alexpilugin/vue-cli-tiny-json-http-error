@@ -31,6 +31,8 @@ export default new Router({
 })
 ```
 
+## ERROR:
+Uncaught Error: Cannot find module 'http'
 
 
 ## Build Setup
